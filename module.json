@@ -1,0 +1,55 @@
+{
+  "id": "legendary-dragons",
+  "title": "Legendary Dragons",
+  "description": "Материалы из книги The Game Master's Book of Legendary Dragons",
+  "version": "0.1",
+  "author": [
+    {
+      "name": "Miranzel",
+      "discord": "miranzel",
+      "url": "https://boosty.to/myriads.of.truths",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": ""
+  },
+  "packs": [
+    {
+      "name": "legendary-dragons",
+      "label": "Legendary Dragons Bestiary Compendium",
+      "path": "packs/legendary-dragons.db",
+      "type": "Actor",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "magic-items",
+      "label": "Legendary Dragons Magic Items Compendium",
+      "path": "packs/magic-items.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "dae",
+        "type": "module",
+        "version": "latest"
+      },
+      {
+        "id": "ATL",
+        "type": "module",
+        "version": "latest"
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/MyriadsOfThruths/FoundryVTT-DnD5e-TGMBoLD/main/module.json",
+  "download": "https://github.com/MyriadsOfThruths/FoundryVTT-DnD5e-TGMBoLD/archive/refs/heads/main.zip"
+}
